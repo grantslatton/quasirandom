@@ -1,0 +1,7 @@
+[package]
+name = "quasirandom"
+version = "0.1.0"
+authors = ["Grant Slatton <grantslatton@gmail.com>"]
+
+[dev-dependencies]
+rand = "0.5"

@@ -2,6 +2,13 @@
 name = "quasirandom"
 version = "0.1.0"
 authors = ["Grant Slatton <grantslatton@gmail.com>"]
+include = ["src/**/*", "Cargo.toml"]
+description = "Quasirandom number generation"
+homepage = "https://github.com/grantslatton/quasirandom"
+keywords = ["quasi", "quasirandom", "low-discrepancy", "discrepancy", "sequence", "random"]
+categories = ["simulation", "algorithms"]
+license = "MIT"
+
 
 [dev-dependencies]
 rand = "0.5"

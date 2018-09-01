@@ -133,8 +133,8 @@ provided the types of all of those values implement `FromUniform`.
 # Notes
 
 **It is important to use the generator for the appropriate dimension, rather than calling a lower-dimensional
-generator multiple times.** In other words, `let (x, y) = (qrng.next1(), qrng.next1())` will yield *far* inferior results
-than `let (x, y) = qrng.next2()`.
+generator multiple times.** In other words, `let (x, y) = (qrng.next::<f64>(), qrng.next::<f64>())` will yield *far* inferior results
+than `let (x, y) = qrng.next::<(f64, f64)>()`.
 
 # Acknowledgments
 

@@ -1,6 +1,6 @@
 [package]
 name = "quasirandom"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Grant Slatton <grantslatton@gmail.com>"]
 include = ["src/**/*", "Cargo.toml"]
 description = "Quasirandom number generation"

@@ -5,9 +5,11 @@ authors = ["Grant Slatton <grantslatton@gmail.com>"]
 include = ["src/**/*", "Cargo.toml"]
 description = "Quasirandom number generation"
 homepage = "https://github.com/grantslatton/quasirandom"
+repository = "https://github.com/grantslatton/quasirandom"
 keywords = ["quasirandom", "low-discrepancy", "discrepancy", "sequence", "random"]
 categories = ["simulation", "algorithms"]
 license = "MIT"
+readme="README.md"
 
 
 [dev-dependencies]

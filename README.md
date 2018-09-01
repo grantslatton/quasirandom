@@ -123,11 +123,11 @@ One can see the error from the QRNG is three orders of magnitude less than the P
 
 # What all can it do
 
-The library exposes code that can generate N-tuples of quasirandomly distributed points in the space [0, 1)^N up
-to N=16. 
+The library exposes code that can generate quasirandomly distributed points in the space [0, 1)^N up
+to N=32. 
 
 The library also exposes the trait `FromUniform` which provides a method to convert a floating point value in [0, 1)
-into an arbitrary type. With this functionality, the library can also generate up to 16-tuples of quasirandom values,
+into an arbitrary type. With this functionality, the library can also generate up to 32-tuples of quasirandom values,
 provided the types of all of those values implement `FromUniform`.
 
 # Notes

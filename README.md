@@ -130,12 +130,14 @@ uniformly distributed in `[0, 1)`.
 # Example usage
 
 ```
+use quasirandom::Qrng;
+
 fn compute_pi() {
     let mut qrng = Qrng::<(f64, f64)>::new(0.123);
     let mut hits = 0.0;
     let mut total = 0.0;
     for _ in 0..1_000_000 {
-        let (x, y) = qrng.next();
+        let (x, y) = qrng.gen();
         if x.hypot(y) < 1.0 {
             hits += 1.0;
         }

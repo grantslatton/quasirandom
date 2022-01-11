@@ -1,6 +1,6 @@
 [package]
 name = "quasirandom"
-version = "0.2.1"
+version = "0.3.0"
 authors = ["Grant Slatton <grantslatton@gmail.com>"]
 include = ["src/**/*", "Cargo.toml"]
 description = "Quasirandom number generation"
@@ -10,7 +10,9 @@ keywords = ["quasirandom", "low-discrepancy", "discrepancy", "sequence", "random
 categories = ["simulation", "algorithms"]
 license = "MIT"
 readme="README.md"
+edition = "2021"
 
 
 [dev-dependencies]
-rand = "0.5"
+rand = "0.8"
+rand_chacha = "0.3"
